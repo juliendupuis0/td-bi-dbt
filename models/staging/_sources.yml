@@ -1,0 +1,9 @@
+version: 2
+sources:  
+  - name: GOOGLE_DRIVE_TD    
+    database: PC_FIVETRAN_DB    
+    schema: GOOGLE_DRIVE_TD    
+    tables:      
+      - name: EXEMPLE_HYPERMARCHE_ACHATS      
+      - name: EXEMPLE_HYPERMARCHE_PERSONNES      
+      - name: EXEMPLE_HYPERMARCHE_RETOURS

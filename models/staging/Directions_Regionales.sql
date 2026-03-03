@@ -1,0 +1,6 @@
+{{ config(materialized='table') }}
+
+SELECT
+    ZONE_GEOGRAPHIQUE,
+    RESPONSABLE_REGIONAL
+FROM {{ source('GOOGLE_DRIVE_TD', 'EXEMPLE_HYPERMARCHE_PERSONNES') }}
